@@ -2,17 +2,19 @@
 <html>
 <head>
   <title>jQuery test page</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  $(document).ready(function () { alert("Hello"); });
+  $("h1").text ("getheadline")
+  $("h2").text ("changeheadlines")
+  $("h2").text ("Wikipedia")
+  $("h1").text ("swapheadlines")
+  $("h1 h2").fadeout ("nosubhead")
+  $("undo").show ("nosubhead")
+  $('.highlight-by-byline').addClass('error');
+  $('.highlight-by-byline').removeClass('error');
+  </script>
 </head>
 <body>
-$("h1").text ("getheadline")
-$("h2").text ("changeheadlines")
-$("h2").text ("Wikipedia")
-$("h1").text ("swapheadlines")
-$("h1 h2").fadeout ("nosubhead")
-$("undo").show ("nosubhead")
-$('.highlight-by-byline').addClass('error');
-$('.highlight-by-byline').removeClass('error');
   <h1>Lorem ipsum</h1>
   <h2>From Wikipedia, the free encyclopedia</h2>
   <p class="byline">By Someone</p>
