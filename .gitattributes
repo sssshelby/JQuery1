@@ -2,8 +2,12 @@
 <html>
 <head>
   <title>jQuery test page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+$("h1").text ("getheadline")
+$("h2").text ("changeheadlines")
+$("h2").text ("Wikipedia")
   <h1>Lorem ipsum</h1>
   <h2>From Wikipedia, the free encyclopedia</h2>
   <p class="byline">By Someone</p>
